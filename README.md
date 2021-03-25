@@ -1,27 +1,38 @@
-# LekeDtoApp
+ADELEKE DTO APP
+==============
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.8.
+### About App
+This App is to demonstrate my deep understanding of Angular framework and how to work with many of its components and features to build a scalable and world standard application
 
-## Development server
+### Installation
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+### App Dependencies
+Please make you have the following running on your system, before running this app:
 
-## Code scaffolding
+1. Node and NPM
+2. Angular 9+
+3. Typscript
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### Step 1
 
-## Build
+In your gitbash clone this app with:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+```
+git clone https://github.com/lekzy2088/Adeleke-DTO.git
 
-## Running unit tests
+```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### Step 2
+Install dependencies with:
 
-## Running end-to-end tests
+```
+npm install
+```
+### Step 3
+After successful installation, run the app with
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+```
+ng serve
+```
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+![](successrun.JPG)
