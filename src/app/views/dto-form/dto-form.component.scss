@@ -1,0 +1,93 @@
+.pageSection{
+    margin: 2%;
+    height: max-content;
+}
+
+.home-logo{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.header-title{
+    font-weight: 500;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.free-span{
+    color: #3CCDF4;
+}
+.reason-text{
+    font-weight: 500;
+    color: #000000;
+    font-size: 16px;
+}
+.data-container{
+    margin-top: 100px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    background-color:#FBFBFB;
+    border-radius: 10px;
+    width: 80%;
+    box-shadow: 0px 1px 1px 2px #F3F3F3;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-bottom: 40px;
+}
+.state-date{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.form-page-button{
+    color: rgb(255, 255, 255);
+    background-color: #FF6E4E;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    width: 200px;
+}
+.another-message-button{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    width: 200px;
+}
+
+.store-state-data{
+    margin-left: 50px;    
+}
+.DTO-state-data{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: 500;
+}
+.data{
+    color: #000ba8;
+}
+.imgae-container{
+    margin-top: 100px;
+}
+
+.DTO-form{
+    margin: 0px 40px 0px 40px;
+}
+
+
+.form-control{
+    color: rgb(0, 0, 0);
+    margin-top: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+    .non-mobile-display {
+      display: none;
+    }
+    .data-container{
+        width: 90%;
+    }
+    .store-state-data{
+        margin-left: 10px;    
+    }
+  }

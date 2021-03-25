@@ -1,0 +1,51 @@
+<section class="homeSection">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 col-md-12">
+        <div class="row home-logo">
+          <a class='nav-link' [routerLink]="['']"><img src="../../../assets/img/filedLogoUse.jpg" alt="Company Logo"></a>
+        </div>
+        <div class="contentContainer">
+          <h1 class="header-title">
+            Book a demo today and get two weeks demo for <span class="free-span">free.</span> Why?
+          </h1>
+          <p class="reason-text">
+            Because Our AI-Powered Software Will Exceed Your Marketing Goals
+          </p>
+        </div>
+        <div class="imgae-container non-mobile-display">
+          <img src="../../../assets/img/filed.png" width="400px" alt="">
+        </div>   
+      </div>
+      <div class="col-lg-6 col-md-12">
+        <div class="data-container">
+          <h2 class="state-date">
+            Store Data displays below
+          </h2>
+          <div class="store-state-data" *ngFor="let DTO of DTO | async">
+            <p class="DTO-state-data">
+              First Name: <span class="data">{{ DTO.first_name }}</span> 
+            </p>
+            <p class="DTO-state-data">
+              Last Name: <span class="data">{{ DTO.last_name }}</span> 
+            </p>
+            <p class="DTO-state-data">
+              Email: <span class="data">{{ DTO.email }}</span> 
+            </p>
+            <p class="DTO-state-data">
+              Country Code: <span class="data">{{ DTO.countryCode }}</span> 
+            </p>
+            <p class="DTO-state-data">
+              Phone: <span class="data">{{ DTO.phone }}</span> 
+            </p>
+            <p class="DTO-state-data">
+              Budget: <span class="data">{{ DTO.budget }}</span> 
+            </p>
+          </div>
+          <button class="btn form-page-button" [routerLink]="['dto-form']"> Move to Form Page</button>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
