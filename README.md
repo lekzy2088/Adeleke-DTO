@@ -11,7 +11,7 @@ Please make you have the following running on your system, before running this a
 
 1. Node and NPM
 2. Angular 9+
-3. Typscript
+3. Typescript
 
 ### Step 1
 
