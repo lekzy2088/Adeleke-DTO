@@ -28,6 +28,9 @@ Install dependencies with:
 ```
 npm install
 ```
+
+![](successinstall.JPG)
+
 ### Step 3
 After successful installation, run the app with
 
